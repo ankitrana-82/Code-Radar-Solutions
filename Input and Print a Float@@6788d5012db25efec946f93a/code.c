@@ -2,7 +2,8 @@
 void main()
 {
     float a;
-    scanf("%f",&a);
-    printf("You entered: %f",&a);
+    printf("")
+    scanf("%2f",&a);
+    printf("You entered: %2f",&a);
 
 }
