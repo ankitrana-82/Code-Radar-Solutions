@@ -5,4 +5,5 @@ int main()
     printf("");
     scanf("%c",&a);
     printf("%d",c);
+    return 0;
 }
