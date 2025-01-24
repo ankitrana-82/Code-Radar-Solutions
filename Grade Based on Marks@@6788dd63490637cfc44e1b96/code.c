@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
-    int a,grade;
+    int a;
+    char grade;
     scanf("%d",&a);
     if(a>=90){
         grade='A'
@@ -17,5 +18,5 @@ int main(){
     else{
         grade='F'
     }
-    printf("%d",grade);
+    printf("%c",grade);
 }
