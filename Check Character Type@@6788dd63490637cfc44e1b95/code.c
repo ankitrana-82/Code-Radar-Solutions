@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
     char ch;
     scanf("%c",&ch);
@@ -7,10 +7,10 @@ int main(){
         printf("Vowel");
     }
     else if(isdigit(ch)){
-        printf("Consonant");
+        printf("Digit");
     }
     else if(isalpha(ch)){
-        printf("Digit");
+        printf("Consonant");
     }
     else{
         printf("Special Character");
