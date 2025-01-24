@@ -6,7 +6,13 @@ int main(){
         ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U'){
         printf("Vowel");
     }
-    else{
+    else if(isdigit(ch)){
         printf("Consonant");
+    }
+    else if(isalpha(ch)){
+        printf("Digit");
+    }
+    else{
+        printf("Special Character");
     }
 }
