@@ -14,6 +14,7 @@ int main(){
             break;
         default:
             printf("Invalid month");
+            return 1;
     }
     printf("%d",days);
     return 0;
