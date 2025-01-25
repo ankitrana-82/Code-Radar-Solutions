@@ -19,9 +19,9 @@ int main(){
         case '/':
             if(b!=0){
                 result=a/b;
-                printf("%2.lf",result)
+                printf("%2.lf",result);
             } else{
-                printf("error")
+                printf("error");
             }
             break;
         default:
