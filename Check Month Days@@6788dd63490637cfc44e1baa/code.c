@@ -16,6 +16,6 @@ int main(){
             printf("Invalid month");
             return 1;
     }
-    printf("%d",days);
+    printf("%d",day);
     return 0;
 }
