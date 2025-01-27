@@ -14,9 +14,8 @@ int main(){
                         break;
             case 'u' : printf("Vowel");
                         break;
-            default{
-                printf("Cononant");
-            }            
+            default:
+                printf("Cononant");            
         }
     }
     else if(a>='0' && a<='9'){
