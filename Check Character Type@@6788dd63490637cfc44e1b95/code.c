@@ -2,7 +2,7 @@
 int main(){
     char a;
     scanf("%c",&a);
-    if(a>='a' && a<='z' || a>='A' && a<='Z'){
+    if((a>='a' && a<='z') || (a>='A' && a<='Z')){
         switch(a){
             case 'a' : printf("Vowel");
                         break;
