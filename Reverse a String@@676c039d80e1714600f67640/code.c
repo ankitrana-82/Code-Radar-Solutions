@@ -4,4 +4,5 @@ int main(){
     char str[]="hello";
     strrev(str);
     printf("%s",str);
+    return 0;
 }
