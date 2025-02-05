@@ -3,7 +3,7 @@
 int main(){
     char str[100];
     scanf("%s",&str);
-    int length=sizeof(str);
+    int length=strlen(str);
     printf("%lu",length);
     return 0;
 }
