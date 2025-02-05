@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
-    char str[100];
+    char str[];
     scanf("%s",&str);
     double length=strlen(str);
     printf("%.0lf",length);
