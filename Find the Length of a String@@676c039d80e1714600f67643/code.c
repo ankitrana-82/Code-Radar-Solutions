@@ -5,4 +5,5 @@ int main(){
     scanf("%s",&str);
     int length=strlen(str);
     printf("%d",length);
+    return 0;
 }
