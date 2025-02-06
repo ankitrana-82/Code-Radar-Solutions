@@ -2,6 +2,6 @@
 int main(){
     char ch1,ch2;
     scanf("%s",&ch1);
-    ch2=ch1.uppercase();
+    ch2=ch1.upperc();
     printf("%s",&ch2);
 }
